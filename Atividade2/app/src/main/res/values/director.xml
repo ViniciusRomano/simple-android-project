@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="director_array">
+        <item>Geral</item>
+        <item>Área</item>
+    </string-array>
+</resources>

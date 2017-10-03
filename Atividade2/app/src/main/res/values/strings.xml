@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Atividade2</string>
+    <string name="clean_button">Limpar</string>
+    <string name="send_button">Enviar</string>
+    <string name="title_activity_show">ShowActivity</string>
+    <string name="color_preferences">br.edu.utfpr.alunos.romano.sharedpreferences.COLOR_PREFERENCE</string>
+    <string name="color_background">COLOR_BACKGROUND</string>
+</resources>
