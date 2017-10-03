@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.edu.utfpr.alunos.romano.paraprova1.FirstActivity">
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="91dp"
+        android:layout_marginLeft="85dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="85dp" />
+
+    <Button
+        android:id="@+id/buttonSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="148dp"
+        android:layout_marginTop="265dp"
+        android:onClick="send"
+        android:text="@string/value_ir"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextName"
+        android:layout_marginStart="148dp" />
+
+    <CheckBox
+        android:id="@+id/checkBoxToast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Toast ?"
+        android:layout_marginLeft="153dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="31dp"
+        app:layout_constraintTop_toBottomOf="@+id/editTextName"
+        android:layout_marginStart="153dp" />
+
+    <Spinner
+        android:id="@+id/spinnerRole"
+        android:layout_width="200dp"
+        android:layout_height="19dp"
+        android:entries="@array/role_array"
+        android:layout_marginTop="21dp"
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxToast"
+        android:layout_marginLeft="92dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <Spinner
+        android:id="@+id/spinnerChamp"
+        android:layout_width="200dp"
+        android:layout_height="23dp"
+        android:layout_marginLeft="92dp"
+        android:layout_marginTop="27dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerRole" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="jungle_array">
+        <item>@string/jungle_elise</item>
+        <item>@string/jungle_Kayn</item>
+    </string-array>
+</resources>

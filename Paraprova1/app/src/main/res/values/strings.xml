@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Paraprova1</string>
+    <string name="value_ir">enviar</string>
+    <string name="value_volta">volta</string>
+    <string name="data_preference">br.edu.utfpr.alunos.romano.DATAPREFERENCE</string>
+    <string name="name_preference">NAME</string>
+    <string name="toast_preference">TOAST</string>
+    <string name="role_mid">Mid</string>
+    <string name="role_jungle">Jungle</string>
+    <string name="mid_lux">Lux</string>
+    <string name="mid_syndra">Syndra</string>
+    <string name="jungle_elise">Elise</string>
+    <string name="jungle_Kayn">Kayn</string>
+
+</resources>

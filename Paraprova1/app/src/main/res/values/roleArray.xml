@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="role_array">
+        <item>@string/role_mid</item>
+        <item>@string/role_jungle</item>
+    </string-array>
+</resources>
